@@ -1,0 +1,8 @@
+#
+# Virtual hosts (domain names) routed to the mysite farm.
+# TODO: replace with the real production/stage/dev domains for mysite.
+#
+
+"www.mysite.example.com"
+"stage.mysite.example.com"
+"dev.mysite.example.com"
