@@ -9,7 +9,7 @@
 #
 
 # Include customer defined variables
-Include conf.d/variables/mysite.vars
+Include conf.d/variables/custom.vars
 
 <VirtualHost *:80>
 	ServerName	"www.mysite.example.com"

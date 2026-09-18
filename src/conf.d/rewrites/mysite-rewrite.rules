@@ -8,7 +8,7 @@
 Include conf.d/rewrites/default_rewrite.rules
 
 # rewrite for root redirect
-RewriteRule ^/?$ /content/${CONTENT_FOLDER_NAME}/us/en.html [PT,L]
+RewriteRule ^/?$ /content/mysite/us/en.html [PT,L]
 
 RewriteCond %{REQUEST_URI} !^/apps
 RewriteCond %{REQUEST_URI} !^/bin
@@ -22,4 +22,4 @@ RewriteCond %{REQUEST_URI} !^/tmp
 RewriteCond %{REQUEST_URI} !^/var
 RewriteCond %{REQUEST_URI} !^/conf/(.+\.jpe?g|.+\.png|.+\.svg)$
 RewriteCond %{REQUEST_URI} (.html|.jpe?g|.png|.svg)$
-RewriteRule ^/(.*)$ /content/${CONTENT_FOLDER_NAME}/$1 [PT,L]
+RewriteRule ^/(.*)$ /content/mysite/$1 [PT,L]
