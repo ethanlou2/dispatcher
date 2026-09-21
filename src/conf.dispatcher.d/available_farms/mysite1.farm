@@ -117,6 +117,7 @@
 		# Note, that file globbing characters are not allowed here.
 		/headers {
 			"Cache-Control"
+			"Content-Disposition"
 			"Content-Type"
 			"Expires"
 			"Last-Modified"
